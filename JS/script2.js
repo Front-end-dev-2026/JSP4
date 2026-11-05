@@ -1,7 +1,7 @@
-function generateRandomArray() {
+function generateRandomArray(length) { // 100
     const Numbers = [];
 
-    for (let i = 1; i < 100; i++) {
+    for (let i = 0; i < length; i++) {
         Numbers.push(Math.floor(Math.random() * 100));
         console.log(i)
     }
@@ -9,4 +9,4 @@ function generateRandomArray() {
     return Numbers;
 
 }
-console.log(generateRandomArray());
+console.log(generateRandomArray(100));

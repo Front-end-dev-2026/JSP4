@@ -5,7 +5,10 @@ function guessNumberGame() {
         randomNumber = Number(prompt("Guess a number between 1 & 10"));
         
     }
-    if (randomNumber === correctNumber)
+if (randomNumber !== correctNumber)
+    console.log("")
+
+    if else (randomNumber === correctNumber)
         console.log("correct")
 }
 guessNumberGame();
